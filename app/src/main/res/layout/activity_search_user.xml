@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:id="@+id/cardSearchContainer"
+            android:layout_margin="@dimen/space16"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <EditText
+                android:id="@+id/edSearch"
+                android:inputType="textPersonName"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:hint="Search username..."
+                android:paddingStart="@dimen/space16"
+                android:paddingEnd="@dimen/space16"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerUser"
+            tools:listitem="@layout/custom_row_user"
+            android:layout_below="@id/cardSearchContainer"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</layout>

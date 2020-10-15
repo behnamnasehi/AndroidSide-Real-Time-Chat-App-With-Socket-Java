@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWarmGrey">#919191</color>
+    <color name="colorWarmGreyOp50">#B3919191</color>
+    <color name="colorGray">#f5f5f5</color>
+    <color name="colorGrayesh">#adadad</color>
+    <color name="colorPinkishGrey">#d0d0d0</color>
+    <color name="colorYellow">#FFE13C</color>
+    <color name="colorYellowRipple">#FFF1C0</color>
+    <color name="colorTomato">#f13535</color>
+    <color name="colorRed">#ff4646</color>f66f6f
+    <color name="colorRedSalmon">#f66f6f</color>
+    <color name="colorDark">#2b2c44</color>
+    <color name="colorDarkTwo">#1e1f2e</color>
+    <color name="colorBlackTwo">#000000</color>
+    <color name="colorGreen">#3bc78e</color>
+    <color name="colorGreenLight">#e8fff6</color>
+    <color name="colorAqua">#b8ffe2</color>
+    <color name="colorGrayMedium">#d7d7d7</color>
+    <color name="colorBlueDark">#2b98d6</color>3bb0c7
+    <color name="colorBlueWindows">#3bb0c7</color>
+    <color name="colorYellowDark">#d2af00</color>
+    <color name="colorGrayShimmer">#E8E8E8</color>
+    <color name="colorTextOrderDelivered">#3bb0c7</color>
+    <color name="colorTextOrderInProcess">#3bc78e</color>
+    <color name="colorTextOrderCanceled">#ff4646</color>
+
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+
+</resources>

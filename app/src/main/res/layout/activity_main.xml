@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.behnamnasehi.chatApp.ui.TextViewRobotoBold
+                    android:layout_width="wrap_content"
+                    android:id="@+id/txtToolbarTitle"
+                    android:layout_height="wrap_content"
+                    android:text="Connecting..."
+                    android:layout_marginStart="@dimen/space32"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize18" />
+
+
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@id/toolbar"
+            android:id="@+id/recyclerRooms"
+            tools:listitem="@layout/custom_row_chat"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/fab"
+            android:src="@drawable/ic_add_person"
+            android:layout_marginBottom="@dimen/space32"
+            android:layout_marginEnd="@dimen/space32"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</layout>

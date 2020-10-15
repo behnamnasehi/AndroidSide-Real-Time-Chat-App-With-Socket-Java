@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="stringImageDescription">this is image description</string>
+    <string name="stringName">Name</string>
+    <string name="stringRegister">Register</string>
+    <string name="stringUsername">Username</string>
+    <string name="stringPassword">Password</string>
+</resources>

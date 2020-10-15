@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="room"
+            type="android.behnamnasehi.chatApp.model.Room" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space8">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:id="@+id/cardAvatarContainer"
+            android:layout_height="50dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/stringImageDescription" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_marginStart="@dimen/space16"
+            android:layout_toEndOf="@id/cardAvatarContainer"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.behnamnasehi.chatApp.ui.TextViewRobotoBold
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/textSize16" />
+
+            <android.behnamnasehi.chatApp.ui.TextViewRobotoRegular
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/colorGrayesh"
+                android:textSize="@dimen/textSize14" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginStart="@dimen/space16"
+            android:layout_toEndOf="@id/cardAvatarContainer"
+            android:layout_below="@id/cardAvatarContainer"
+            android:background="@color/colorGrayShimmer"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.behnamnasehi.chatApp.ui.TextViewRoboto
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space16"
+            android:text="Login"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space32"
+            android:layout_marginEnd="@dimen/space32"
+            android:hint="Username">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edUsername"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                 />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space16"
+            app:passwordToggleEnabled="true"
+            android:layout_marginStart="@dimen/space32"
+            android:layout_marginEnd="@dimen/space32"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:id="@+id/edPassword"
+                android:inputType="textPassword"
+                 />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <android.behnamnasehi.chatApp.ui.ButtonRobotoBold
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="@dimen/space32"
+            android:layout_marginTop="@dimen/space16"
+            android:layout_marginEnd="@dimen/space32"
+            android:background="@drawable/bg_button"
+            android:text="Login"
+            android:textColor="@color/colorWhite" />
+
+        <android.behnamnasehi.chatApp.ui.TextViewRobotoBold
+            android:layout_width="wrap_content"
+            android:id="@+id/txtNotRegistered"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space16"
+            android:text="Not registered ? Sign Up"
+            android:layout_marginTop="@dimen/space16"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</layout>
