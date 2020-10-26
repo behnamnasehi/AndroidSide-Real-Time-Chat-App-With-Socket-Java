@@ -10,7 +10,3 @@ You Can Access the ServerSide file in my github
 
 ## ScreenShot
 ![](screenshot/app.gif)
-
-
-
-[test](http://shahrara.net/)
